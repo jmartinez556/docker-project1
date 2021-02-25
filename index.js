@@ -5,7 +5,7 @@ var app = express()
 var port = 3000
 //Define request response in root URL (/)
 app.get('/', function (req, res) {
-    res.send('you didnt think i could do it')
+    res.send('THIS IS PROJECT1')
 })
 //Launch listening server on port 3000
 app.listen(port, function () {
